@@ -26,6 +26,18 @@ export default function Layout({ children, home }) {
           <meta name="twitter:card" content="summary_large_image" />
         </Head>
         <header className={styles.header}>
+          <div className="w-full flex flex-row-reverse mb-0 mt-0 bg-stone-30">
+        
+                  <Image
+                    src="/images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png"
+                    className="hover:bg-slate-200"
+                    alt="Picture of a triangle"
+                    width={50}
+                    height={50}
+              />
+            
+          </div>
+       
           {home ? (
             <>
               <Image

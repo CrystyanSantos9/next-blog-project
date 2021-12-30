@@ -33,7 +33,7 @@ export default function Home({ allPostsData }) {
       </section>
 
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
-        <h2 className="text-2xl uppercase text-slate-400 text-center">Últimas postagens</h2>
+        <h2 className="text-2xl  mt-8  text-center">Últimas postagens</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title }) => (
             <div className={utilStyles.card}>
